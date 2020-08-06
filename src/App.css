@@ -6,33 +6,37 @@
   height: 40vmin;
   pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hide {
+  display: flex;
+  padding: 5%;
+  justify-content: center;
+}
+.count {
+  font-size: 6em;
+  text-align: center;
+}
+.compact-count {
+  display: flex;
+  justify-content: center
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.compact-controls {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.compact-button {
+  background-color: rgb(20, 24, 238);
+  border: none;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  padding: .8em;
+  margin: .5em;
+  outline: none;
+  &:hover {
+    background-color: darken(rgb(0, 162, 255), 5%);
   }
-  to {
-    transform: rotate(360deg);
+  &:active {
+    background-color: darken(lightblue, 10%);
   }
 }
