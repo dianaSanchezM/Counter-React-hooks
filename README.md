@@ -11,6 +11,6 @@
 
 ### Producto
 
-![](https://github.com/dianaSanchezM/Counter-React-hooks.git/blob/master/images/app.png)
+![](https://github.com/dianaSanchezM/Counter-React-hooks/blob/master/app.png)
 
 **Enlace a Github:** https://github.com/dianaSanchezM/Counter-React-hooks.git
